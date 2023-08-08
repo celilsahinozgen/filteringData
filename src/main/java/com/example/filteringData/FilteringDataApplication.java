@@ -21,9 +21,9 @@ public class FilteringDataApplication {
 								 @Value("${application-version}") String version){
 		return new OpenAPI()
 				.info(new Info()
-						.title("Hastane API")
+						.title("ARABAMARKA API")
 						.version(version)
 						.description(description)
-						.license(new License().name("Hastane API License")));
+						.license(new License().name("ARABAMARKA API License")));
 	}
 }
